@@ -1,0 +1,31 @@
+
+The following files have been resolved:
+   org.apache.commons:commons-lang3:jar:3.4:compile
+   org.eclipse.jetty:jetty-servlet:jar:9.3.2.v20150730:compile
+   com.ibm.watson.developer_cloud:java-sdk:jar:3.0.0-RC1:compile
+   org.eclipse.jetty.websocket:websocket-api:jar:9.3.2.v20150730:compile
+   com.sparkjava:spark-core:jar:2.3:compile
+   org.eclipse.jetty:jetty-server:jar:9.3.2.v20150730:compile
+   org.slf4j:slf4j-api:jar:1.7.12:compile
+   com.squareup.okio:okio:jar:1.6.0:compile
+   com.google.code.gson:gson:jar:2.6.2:compile
+   org.eclipse.jetty:jetty-xml:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty.websocket:websocket-server:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty:jetty-util:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty:jetty-io:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty.websocket:websocket-common:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty:jetty-webapp:jar:9.3.2.v20150730:compile
+   org.slf4j:slf4j-simple:jar:1.7.12:compile
+   com.squareup.okhttp3:okhttp:jar:3.2.0:compile
+   org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+   org.eclipse.jetty.websocket:websocket-client:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty:jetty-http:jar:9.3.2.v20150730:compile
+   org.eclipse.jetty:jetty-security:jar:9.3.2.v20150730:compile
+   javax.servlet:javax.servlet-api:jar:3.1.0:compile
+   commons-codec:commons-codec:jar:1.9:compile
+   org.eclipse.jetty.websocket:websocket-servlet:jar:9.3.2.v20150730:compile
+   commons-logging:commons-logging:jar:1.2:compile
+   com.squareup.okhttp3:okhttp-urlconnection:jar:3.2.0:compile
+   com.squareup.okhttp3:okhttp-ws:jar:3.2.0:compile
+   org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+

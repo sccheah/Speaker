@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Speakr</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css"> 
+	<link rel="stylesheet" type="text/css" href="speakr.css">-->
+  <link rel="stylesheet" type="text/css" href="css/layouts/marketing.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
+  <script src="https:///ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+
+	<h1>speakr</h1><img id="logo" src="logo.png" />
+
+    <!--<div id="my_camera" style="width:320px; height:245px;"></div>-->
+    <div id="parent">
+      <div id="imageButton">
+        <div id="my_camera"></div>
+        <div id="buttonFormat">
+						<p id="recording">RECORDING</p>
+            <button class="pure-button" onclick="start_auto_snap()">Begin</button>
+            <button class="pure-button" onclick="stop_auto_snap()">Stop</button>
+        </div>
+      </div>
+
+      <div id="faceText">
+        <div id="face">
+          <strong>Facial Expression:</strong> <p id="facialExpression"></p> 
+        </div>
+
+        <div id="text">
+            <strong>Text Tone:</strong> <p id="textTone"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="socket.js"></script>
+    <script src="voice.js"></script>
+    <script src="webcam.js"></script>
+    <script src="speakr.js"></script>
+    <script src="callBack.js"></script>
+
+</body>
+</html>
